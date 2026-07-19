@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "abhi-patil-01-terraform-state"
+    bucket         = "abhi-dev-9982"
     region         = "ap-south-1"
     key            = "batch-32/terraform.tfstate"
     encrypt        = true
